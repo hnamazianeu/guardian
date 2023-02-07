@@ -20,3 +20,5 @@ node_modules
 # OSX related metadata removal and IDE nonsense
 .DS_store
 .idea
+
+*.pem

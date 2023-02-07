@@ -2650,7 +2650,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/Error'
 
-  /trustchains:
+  /trust-chains:
     get:
       tags:
         - trustchains
@@ -2712,7 +2712,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/Error'
 
-  /trustchains/{hash}:
+  /trust-chains/{hash}:
     get:
       tags:
         - trustchains
