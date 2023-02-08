@@ -26,3 +26,5 @@ jobs:
         target_repo_token: ${{ secrets.GITHUB_TOKEN }}
         upstream_sync_repo: ${{ vars.UPSTREAM_REPOSITORY }}
         upstream_sync_branch: ${{ env.BRANCH }}
+        upstream_pull_args: --tags
+        target_branch_push_args: --follow-tags
