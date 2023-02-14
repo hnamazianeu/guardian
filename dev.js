@@ -2,6 +2,7 @@ const execSync = require('child_process').execSync;
 const spaw = require('child_process').spawn;
 const fs = require('fs');
 
+
 (async () => {
     await execSync(`yarn`, { stdio: 'inherit', shell: true });
     const buildAndWatch = async (folder, skipWatch = false) => {
